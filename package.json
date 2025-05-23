@@ -18,7 +18,7 @@
     "build-storybook": "storybook build",
     "publish:components": "npm publish -w @ykmikan/components",
     "publish:icons": "npm publish -w @ykmikan/icons",
-    "publish": "npm run publish:components && npm run publish:icons",
+    "publish:all": "npm run publish:components && npm run publish:icons",
     "test-npm-config": "node scripts/test-npm-config.js"
   },
   "author": "ykmikan",

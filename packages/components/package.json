@@ -1,6 +1,6 @@
 {
   "name": "@ykmikan/components",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "UI components for my-ui design system",
   "main": "build/index.js",
   "module": "build/index.es.js",
