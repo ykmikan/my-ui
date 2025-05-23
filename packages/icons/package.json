@@ -1,5 +1,5 @@
 {
-  "name": "@my-ui/icons",
+  "name": "@ykmikan/icons",
   "version": "0.0.1",
   "description": "Icon components for my-ui design system",
   "main": "build/index.js",
@@ -8,6 +8,14 @@
   "files": [
     "build"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykmikan/my-ui.git",
+    "directory": "packages/icons"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

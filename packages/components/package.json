@@ -1,5 +1,5 @@
 {
-  "name": "@my-ui/components",
+  "name": "@ykmikan/components",
   "version": "0.0.1",
   "description": "UI components for my-ui design system",
   "main": "build/index.js",
@@ -8,6 +8,14 @@
   "files": [
     "build"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykmikan/my-ui.git",
+    "directory": "packages/components"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

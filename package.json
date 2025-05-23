@@ -8,14 +8,18 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:components": "npm run dev -w @my-ui/components",
-    "dev:icons": "npm run dev -w @my-ui/icons",
+    "dev:components": "npm run dev -w @ykmikan/components",
+    "dev:icons": "npm run dev -w @ykmikan/icons",
     "dev": "npm run dev:components",
-    "build:components": "npm run build -w @my-ui/components",
-    "build:icons": "npm run build -w @my-ui/icons",
+    "build:components": "npm run build -w @ykmikan/components",
+    "build:icons": "npm run build -w @ykmikan/icons",
     "build": "npm run build:components && npm run build:icons",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "publish:components": "npm publish -w @ykmikan/components",
+    "publish:icons": "npm publish -w @ykmikan/icons",
+    "publish": "npm run publish:components && npm run publish:icons",
+    "test-npm-config": "node scripts/test-npm-config.js"
   },
   "author": "ykmikan",
   "license": "ISC",
